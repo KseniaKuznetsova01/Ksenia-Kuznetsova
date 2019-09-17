@@ -6,13 +6,13 @@ def parallelogram (x, y, color)
      # TODO:(Ksysha)
      pass
 def square (x, y, color)
-    # TODO:(Ksysha)
+    # TODO:(Kate)
     pass
 def triangle_0(x, y, red):
     # TODO:(Kate)
     pass
 def triangle_1(x, y, color)
-    #TODO:(Kate)
+    #TODO:(Ksusha)
     pass
 def triangle_2(x, y, color)
     # TODO:(Ksysha)
@@ -24,6 +24,4 @@ def triangle_4(x, y, color)
     # TODO:(Kate)
     pass
 def main():
-
-
 
