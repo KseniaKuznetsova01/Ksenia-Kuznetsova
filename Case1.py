@@ -18,16 +18,15 @@ def triangle(x, y, a, b, c, r1, r2,color): #Объявляем функцию tr
     turtle.forward(c)
     turtle.end_fill() #Заканчиваем заливку цветом
 
-def main():
-    triangle(0, 0, 100, 100, 142, -90, -135, 'blue')
-    turtle.right(-135)
+def main(): #Объявляю функцию main
+    triangle(0, 0, 100, 100, 142, -90, -135, 'blue') #Вводим параметры желаемого треугольника
+    turtle.right(-135) #Вводим градус, на который необходимо развернуть перо
     triangle(105, 0, 70, 99, 70, -135, -135, 'purple')
     turtle.right(-135)
     triangle(0, 7, 180, 130, 137, -135, -90, 'yellow')
     turtle.right(0)
     triangle(130, 150, 50, 40, 40, -135, -90, 'pink')
-    turtle.right(45)
-    triangle(126, 135, 130, 180, 137, -135, -135, 'red')
 
-if __name__ == '__main__':
+
+if __name__ == '__main__': #Вызываю функцию main
     main()
