@@ -35,11 +35,7 @@ pass
 def figure_8
 # TODO:(Ksusha)
 pass
-# Case1
-# Developers: Kuznetsova K. (o%), Panukova E. (0%)
 
-
-import turtle
 
 
 def triangle(x, y, a, b, c, r1, r2,color):  # Объявляем функцию triangle с входными параметрами: стартовая позиция, длины сторон, углы и цвет (Екатерина)
@@ -86,7 +82,7 @@ def square (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функ�
     tertle.end_fill() #Заканчиваем заливку цветом
 
 def main():
-    # Picture:man (Екатерина)
+    # Picture_1:man (Екатерина)
     turtle.right(-135)
     triangle(0, 2, 50, 50, 71, 90, 135, 'orange')
     turtle.right(180)
@@ -106,7 +102,7 @@ def main():
     turtle.right(-90)
     triangle(-35, -233, 50, 50, 71, 90, 135, 'pink')
 
-    # Picture:Rabbit (Екатерина)
+    # Picture_2:Rabbit (Екатерина)
     turtle.right(45)
     triangle(200, 200, 100, 100, 142, -90, -135, 'blue')
     turtle.right(-135)
@@ -126,7 +122,7 @@ def main():
     turtle.right(180)
     triangle(290, 519, 86, 70, 50, 145, 90, 'green')
 
-    # Picture:Box (Екатерина)
+    # Picture_3:Box (Екатерина)
     turtle.right(180)
     triangle(-401, -309, 142, 100, 100, 135, 90, 'yellow')
     turtle.right(225)
@@ -146,7 +142,7 @@ def main():
     turtle.right(-90)
     triangle(-328, -239, 50, 70, 50, 135, 135, 'pink')
 
-    # Picture:Whale (Екатерина)
+    # Picture_4:Whale (Екатерина)
     turtle.right(-45)
     triangle(3, 200, 142, 100, 100, 135, 90, 'red')
     turtle.right(135)
@@ -165,6 +161,23 @@ def main():
     triangle(40, 382, 71, 50, 50, 135, 90, 'green')
     turtle.right(180)
     triangle(40, 382, 50, 71, 50, 135, 135, 'green')
+
+    #Picture_5: fish(Ksenia)
+    turtle.right(90)
+    triangle(535, 560, 100, 100, 142, -90, -135, "yell0w")
+    turtle.right(135)
+    triangle(635, 662, 100, 100, 142, -90, -135, "red")
+    turtle.right(-90)
+    triangle(636, 626, 50, 50, 71, -90, -135, "blue")
+    turtle.right(45)
+    square(634, 661, 41, 41, 41, 41, -90, -90, -90, "orange")
+    turtle.right(-90)
+    parallelogram(576, 661, 41, 29, 41, 29, -45, -135, -45, "green")
+    turtle.right(180)
+    triangle(576, 660, 29, 29, 41, -90, -135, "pink")
+    turtle.ringht(0)
+    triangle(517, 630, 41, 29, 29, 135, 90, "purple")
+
 
 
 if __name__ == '__main__':
