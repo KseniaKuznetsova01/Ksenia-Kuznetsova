@@ -194,5 +194,22 @@ def main():
     turtle.right(-90)
     triangle(570, 810, 50, 50, 71, -90, -135, "purple" )
 
-if __name__ == '__main__':
+    # Picture_7:ship(Ksenia)
+    turtle.right(-45)
+    parallelogram(30, 900, 50, 30, 50, 30, 135, 45, 135, "green")
+    turtle.right(45)
+    triangle(61, 900, 50, 71, 50, 135, 135, "blue")
+    turtle.right(135)
+    triangle(61, 936, 180, 128, 128, 135, 90, "red")
+    turtle.right(180)
+    triangle(61, 935, 63, 63, 90, 90, 135, "pink")
+    turtle.right(45)
+    square(151, 936, 63, 63, 63, 63, 90, 90, 90, "orange")
+    turtle.right(0)
+    triangle(59, 1066, 100, 71, 71, -135, -90, "yellow")
+    turtle.right(0)
+    triangle(61, 1117, 63, 90, 63, 135, 135, "purple")
+
+
+    if __name__ == '__main__':
     main()
