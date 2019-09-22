@@ -210,6 +210,21 @@ def main():
     turtle.right(0)
     triangle(61, 1117, 63, 90, 63, 135, 135, "purple")
 
+    # Picture_8:Lama(Ksenia)
+    turtle.right(135)
+    triangle(-500, 1130, 91, 91, 128, 90, 135, "blue")
+    turtle.right(-90)
+    parallelogram(-500, 1129, 128, 70, 128, 70, -45, -135, -45, "green")
+    turtle.right(180)
+    triangle(-499, 1129, 180, 128, 128, -135, -90, "red")
+    turtle.right(90)
+    triangle(-371, 912, 128, 128, 180, 90, 135, "yellow")
+    turtle.right(135)
+    triangle(-299, 912, 71, 50, 71, -135, -90, "purple")
+    turtle.right(-135)
+    square(-243, 1041, 60, 60, 60, 60, -90, -90, -90, "orange")
+    turtle.right(0)
+    triangle(-303, 1042, 71, 50, 50, -135, -90, "pink")
 
     if __name__ == '__main__':
     main()
