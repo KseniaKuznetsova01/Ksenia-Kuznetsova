@@ -1,4 +1,40 @@
+# Case1
+# Developers: Kuznetsova K. (50%), Panukova E. (60%)
+import turtle
 
+def parallelogram (x, y, a, b, c, d, r1, r2, r3,color)
+# TODO:(Ksusha)
+pass
+def square (x, y, a, b, c, d, r1, r2, r3,color)
+# TODO:(Ksusha)
+pass
+def triangle (x, y, a, b, c, r1, r2,color)
+# TODO:(Kate)
+pass
+def figure_1
+# TODO:(Kate)
+pass
+def figure_2
+# TODO:(Kate)
+pass
+def figure_3
+# TODO:(Kate)
+pass
+def figure_4
+# TODO:(Kate)
+pass
+def figure_5
+# TODO:(Ksusha)
+pass
+def figure_6
+# TODO:(Ksusha)
+pass
+def figure_7
+# TODO:(Ksusha)
+pass
+def figure_8
+# TODO:(Ksusha)
+pass
 # Case1
 # Developers: Kuznetsova K. (o%), Panukova E. (0%)
 
@@ -6,9 +42,7 @@
 import turtle
 
 
-def triangle(x, y, a, b, c, r1, r2,
-             color):  # Объявляем функцию triangle с входными параметрами: стартовая позиция, длины сторон, углы и цвет (Екатерина)
-
+def triangle(x, y, a, b, c, r1, r2,color):  # Объявляем функцию triangle с входными параметрами: стартовая позиция, длины сторон, углы и цвет (Екатерина)
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()  #
@@ -21,6 +55,35 @@ def triangle(x, y, a, b, c, r1, r2,
     turtle.forward(c)
     turtle.end_fill()
 
+def parallelogram (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию triangle с входными параметрами: стартовая позиция, длины сторон, углы и цвет
+    turtle.up() #Поднимаю перо
+    turtle.setposition(x,y)
+    turtle.down() #Опускаю перо
+    turtle.color(color) #Цвет
+    turtle.begin_fill() #Начинаем заливку цветом
+    turtle.forwar(a) #Движение вперед
+    turtle.right(r1) #Поворот направо
+    turtle.forward(b)
+    turtle.right(r2)
+    turtle.forward(c)
+    turtle.right(r3)
+    turtle.forward(d)
+    tertle.end_fill() #Заканчиваем заливку цветом
+
+def square (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию triangle с входными параметрами: стартовая позиция, длины сторон, углы и цвет
+    turtle.up() #Поднимаю перо
+    turtle.setposition(x,y)
+    turtle.down() #Опускаю перо
+    turtle.color(color) #Цвет
+    turtle.begin_fill() #Начинаем заливку цветом
+    turtle.forwar(a) #Движение вперед
+    turtle.right(r1) #Поворот направо
+    turtle.forward(b)
+    turtle.right(r2)
+    turtle.forward(c)
+    turtle.right(r3)
+    turtle.forward(d)
+    tertle.end_fill() #Заканчиваем заливку цветом
 
 def main():
     # Picture:man (Екатерина)
