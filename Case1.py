@@ -162,7 +162,7 @@ def main():
     turtle.right(180)
     triangle(40, 382, 50, 71, 50, 135, 135, 'green')
 
-    #Picture_5: fish(Ksenia)
+    #Picture_5:Fish(Ksenia)
     turtle.right(90)
     triangle(535, 560, 100, 100, 142, -90, -135, "yell0w")
     turtle.right(135)
@@ -178,7 +178,7 @@ def main():
     turtle.ringht(0)
     triangle(517, 630, 41, 29, 29, 135, 90, "purple")
 
-    #Picture_6: Men2
+    #Picture_6:Men2(Ksenia)
     turtle.right(-45)
     square(600, 1200, 71, 71, 71, 71, -90, -90, -90, "orange" )
     turtle.right(135)
@@ -194,7 +194,7 @@ def main():
     turtle.right(-90)
     triangle(570, 810, 50, 50, 71, -90, -135, "purple" )
 
-    # Picture_7:ship(Ksenia)
+    # Picture_7:Ship(Ksenia)
     turtle.right(-45)
     parallelogram(30, 900, 50, 30, 50, 30, 135, 45, 135, "green")
     turtle.right(45)
