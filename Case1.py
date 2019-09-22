@@ -178,7 +178,21 @@ def main():
     turtle.ringht(0)
     triangle(517, 630, 41, 29, 29, 135, 90, "purple")
 
-
+    #Picture_6: Men2
+    turtle.right(-45)
+    square(600, 1200, 71, 71, 71, 71, -90, -90, -90, "orange" )
+    turtle.right(135)
+    triangle(550, 1098, 128, 180, 128, 135, 135, "red")
+    turtle.right(180)
+    parallelogram(549, 1098, 50, 71, 50, 71, 45, 135, 45, "green")
+    turtle.right(135)
+    triangle(570, 990, 128, 128, 180, 90, 135, "yellow")
+    turtle.right(-135)
+    triangle(450, 870, 50, 50, 71, -90, -135, "pink")
+    turtle.right(135)
+    triangle(572, 860, 100, 71, 71, -135, -90, "blue")
+    turtle.right(-90)
+    triangle(570, 810, 50, 50, 71, -90, -135, "purple" )
 
 if __name__ == '__main__':
     main()
