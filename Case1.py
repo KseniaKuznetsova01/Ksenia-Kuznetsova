@@ -6,31 +6,31 @@ import math
 
 
 def triangle(x, y, a, b, c, r1, r2,color):  # Объявляем функцию triangle с входными параметрами: стартовая позиция, длины сторон, углы и цвет (Екатерина)
-    turtle.up()
-    turtle.setposition(x, y)
-    turtle.down()  #
-    turtle.color(color)
-    turtle.begin_fill()
-    turtle.forward(a)
-    turtle.right(r1)
-    turtle.forward(b)
-    turtle.right(r2)
-    turtle.forward(c)
+    turtle.up() #Поднимаю перо
+    turtle.setposition(x, y) #Занимаем стартовую позицию
+    turtle.down()  #Опускаю перо
+    turtle.color(color) #Цвет
+    turtle.begin_fill()#Начинаем заливку цветом
+    turtle.forward(a)  #Движение вперед
+    turtle.right(r1)#Поворот направо
+    turtle.forward(b) #Движение вперед
+    turtle.right(r2)#Поворот направо
+    turtle.forward(c) #Движение вперед
     turtle.end_fill()
 
 def parallelogram (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию parallelogram с входными параметрами: стартовая позиция, длины сторон, углы и цвет (Ксения)
     turtle.up() #Поднимаю перо
-    turtle.setposition(x,y)
+    turtle.setposition(x,y) #Занимаем стартовую позицию
     turtle.down() #Опускаю перо
     turtle.color(color) #Цвет
     turtle.begin_fill() #Начинаем заливку цветом
     turtle.forward(a) #Движение вперед
     turtle.right(r1) #Поворот направо
-    turtle.forward(b)
-    turtle.right(r2)
-    turtle.forward(c)
-    turtle.right(r3)
-    turtle.forward(d)
+    turtle.forward(b) #Движение вперед
+    turtle.right(r2) #Поворот направо
+    turtle.forward(c)  #Движение вперед
+    turtle.right(r3) #Поворот направо
+    turtle.forward(d) #Движение вперед
     turtle.end_fill() #Заканчиваем заливку цветом
 
 def square (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию square с входными параметрами: стартовая позиция, длины сторон, углы и цвет(Ксения)
@@ -41,11 +41,11 @@ def square (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функ�
     turtle.begin_fill() #Начинаем заливку цветом
     turtle.forward(a) #Движение вперед
     turtle.right(r1) #Поворот направо
-    turtle.forward(b)
-    turtle.right(r2)
-    turtle.forward(c)
-    turtle.right(r3)
-    turtle.forward(d)
+    turtle.forward(b) #Движение вперед
+    turtle.right(r2) #Поворот направо
+    turtle.forward(c) #Движение вперед
+    turtle.right(r3) #Поворот направо
+    turtle.forward(d) #Движение вперед
     turtle.end_fill() #Заканчиваем заливку цветом
 
 def main():
