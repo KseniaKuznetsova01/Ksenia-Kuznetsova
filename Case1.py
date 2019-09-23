@@ -5,7 +5,6 @@ from turtle import *
 import math
 
 
-
 def triangle(x, y, a, b, c, r1, r2,color):  # Объявляем функцию triangle с входными параметрами: стартовая позиция, длины сторон, углы и цвет (Екатерина)
     turtle.up()
     turtle.setposition(x, y)
@@ -19,7 +18,7 @@ def triangle(x, y, a, b, c, r1, r2,color):  # Объявляем функцию 
     turtle.forward(c)
     turtle.end_fill()
 
-def parallelogram (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию parallelogram с входными параметрами: стартовая позиция, длины сторон, углы и цвет
+def parallelogram (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию parallelogram с входными параметрами: стартовая позиция, длины сторон, углы и цвет (Ксения)
     turtle.up() #Поднимаю перо
     turtle.setposition(x,y)
     turtle.down() #Опускаю перо
@@ -34,7 +33,7 @@ def parallelogram (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем ф
     turtle.forward(d)
     turtle.end_fill() #Заканчиваем заливку цветом
 
-def square (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию square с входными параметрами: стартовая позиция, длины сторон, углы и цвет
+def square (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию square с входными параметрами: стартовая позиция, длины сторон, углы и цвет(Ксения)
     turtle.up() #Поднимаю перо
     turtle.setposition(x,y)
     turtle.down() #Опускаю перо
