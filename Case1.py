@@ -19,7 +19,7 @@ def triangle(x, y, a, b, c, r1, r2,color):  # Объявляем функцию 
     turtle.forward(c)
     turtle.end_fill()
 
-def parallelogram (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию triangle с входными параметрами: стартовая позиция, длины сторон, углы и цвет
+def parallelogram (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию parallelogram с входными параметрами: стартовая позиция, длины сторон, углы и цвет
     turtle.up() #Поднимаю перо
     turtle.setposition(x,y)
     turtle.down() #Опускаю перо
@@ -34,7 +34,7 @@ def parallelogram (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем ф
     turtle.forward(d)
     turtle.end_fill() #Заканчиваем заливку цветом
 
-def square (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию triangle с входными параметрами: стартовая позиция, длины сторон, углы и цвет
+def square (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию square с входными параметрами: стартовая позиция, длины сторон, углы и цвет
     turtle.up() #Поднимаю перо
     turtle.setposition(x,y)
     turtle.down() #Опускаю перо
@@ -52,9 +52,7 @@ def square (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функ�
 def main():
     # Picture_1:man (Екатерина)
     turtle.right(-135)
-    triangle(0, 2, 50, 50, 71, 90, 135, 'orange')
-    turtle.right(180)
-    triangle(0, 2, 71, 50, 50, 135, 90, 'orange')
+    square(0, -2, 50, 50, 50, 50, 90, 90, 90, 'orange')
     turtle.right(-45)
     triangle(-2, -3, 128, 180, 128, 135, 135, 'red')
     turtle.right(90)
@@ -72,26 +70,22 @@ def main():
 
     # Picture_2:Rabbit (Екатерина)
     turtle.right(45)
-    triangle(200, 200, 100, 100, 142, -90, -135, 'blue')
+    triangle(200, -50, 100, 100, 142, -90, -135, 'blue')
     turtle.right(-135)
-    triangle(304, 200, 70, 99, 70, -135, -135, 'purple')
+    triangle(304, -50, 70, 99, 70, -135, -135, 'purple')
     turtle.right(-135)
-    triangle(200, 207, 180, 130, 132, -135, -90, 'yellow')
+    triangle(200, -43, 180, 130, 132, -135, -90, 'yellow')
     turtle.right(0)
-    triangle(331, 354, 71, 50, 50, -135, -90, 'pink')
+    triangle(331, 104, 71, 50, 50, -135, -90, 'pink')
     turtle.right(45)
-    triangle(326, 337, 128, 180, 128, -135, -135, 'red')
+    triangle(326, 87, 128, 180, 128, -135, -135, 'red')
     turtle.right(-90)
-    triangle(330, 455, 60, 60, 85, 90, 135, 'orange')
-    turtle.right(-135)
-    triangle(330, 455, 60, 60, 85, -90, -135, 'orange')
+    square(330, 205, 60, 60, 60, 60, 90, 90, 90, 'orange')
     turtle.right(45)
-    triangle(360, 519, 70, 50, 86, 90, 125, 'green')
-    turtle.right(180)
-    triangle(290, 519, 86, 70, 50, 145, 90, 'green')
+    parallelogram(360, 269, 71, 50, 71, 50, -45, -135, -45, 'green')
 
     # Picture_3:Box (Екатерина)
-    turtle.right(180)
+    turtle.right(-90)
     triangle(-401, -309, 142, 100, 100, 135, 90, 'yellow')
     turtle.right(225)
     triangle(-398, -165, 142, 100, 100, 135, 90, 'red')
@@ -112,23 +106,23 @@ def main():
 
     # Picture_4:Whale (Екатерина)
     turtle.right(-45)
-    triangle(3, 200, 142, 100, 100, 135, 90, 'red')
+    triangle(3, 120, 142, 100, 100, 135, 90, 'red')
     turtle.right(135)
-    triangle(-2, 200, 142, 100, 100, -135, -90, 'yellow')
+    triangle(-2, 120, 142, 100, 100, -135, -90, 'yellow')
     turtle.right(180)
-    triangle(-116, 236, 50, 70, 50, 135, 135, 'pink')
+    triangle(-116, 156, 50, 70, 50, 135, 135, 'pink')
     turtle.right(-90)
-    triangle(-78, 270, 50, 70, 50, 135, 135, 'purple')
+    triangle(-78, 190, 50, 70, 50, 135, 135, 'purple')
     turtle.right(-45)
-    triangle(-180, 250, 71, 50, 50, 135, 90, 'orange')
+    triangle(-180, 170, 71, 50, 50, 135, 90, 'orange')
     turtle.right(135)
-    triangle(-180, 250, 71, 50, 50, -135, -90, 'orange')
+    triangle(-180, 170, 71, 50, 50, -135, -90, 'orange')
     turtle.right(-90)
-    triangle(-105, 347, 71, 71, 100, 90, 135, 'blue')
+    triangle(-105, 267, 71, 71, 100, 90, 135, 'blue')
     turtle.right(180)
-    triangle(40, 382, 71, 50, 50, 135, 90, 'green')
+    triangle(40, 302, 71, 50, 50, 135, 90, 'green')
     turtle.right(180)
-    triangle(40, 382, 50, 71, 50, 135, 135, 'green')
+    triangle(40, 302, 50, 71, 50, 135, 135, 'green')
 
     # Picture_5:Fish (Ksenia)
     turtle.right(0)
