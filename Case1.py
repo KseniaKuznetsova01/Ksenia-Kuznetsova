@@ -1,40 +1,8 @@
 # Case1
 # Developers: Kuznetsova K. (50%), Panukova E. (60%)
 import turtle
-
-def parallelogram (x, y, a, b, c, d, r1, r2, r3,color):
-# TODO:(Ksusha)
-pass
-def square (x, y, a, b, c, d, r1, r2, r3,color):
-# TODO:(Ksusha)
-pass
-def triangle (x, y, a, b, c, r1, r2,color):
-# TODO:(Kate)
-pass
-def figure_1
-# TODO:(Kate)
-pass
-def figure_2
-# TODO:(Kate)
-pass
-def figure_3
-# TODO:(Kate)
-pass
-def figure_4
-# TODO:(Kate)
-pass
-def figure_5
-# TODO:(Ksusha)
-pass
-def figure_6
-# TODO:(Ksusha)
-pass
-def figure_7
-# TODO:(Ksusha)
-pass
-def figure_8
-# TODO:(Ksusha)
-pass
+from turtle import *
+import math
 
 
 
@@ -57,14 +25,14 @@ def parallelogram (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем ф
     turtle.down() #Опускаю перо
     turtle.color(color) #Цвет
     turtle.begin_fill() #Начинаем заливку цветом
-    turtle.forwar(a) #Движение вперед
+    turtle.forward(a) #Движение вперед
     turtle.right(r1) #Поворот направо
     turtle.forward(b)
     turtle.right(r2)
     turtle.forward(c)
     turtle.right(r3)
     turtle.forward(d)
-    tertle.end_fill() #Заканчиваем заливку цветом
+    turtle.end_fill() #Заканчиваем заливку цветом
 
 def square (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функцию triangle с входными параметрами: стартовая позиция, длины сторон, углы и цвет
     turtle.up() #Поднимаю перо
@@ -72,14 +40,14 @@ def square (x, y, a, b, c, d, r1, r2, r3, color) : #Объявляем функ�
     turtle.down() #Опускаю перо
     turtle.color(color) #Цвет
     turtle.begin_fill() #Начинаем заливку цветом
-    turtle.forwar(a) #Движение вперед
+    turtle.forward(a) #Движение вперед
     turtle.right(r1) #Поворот направо
     turtle.forward(b)
     turtle.right(r2)
     turtle.forward(c)
     turtle.right(r3)
     turtle.forward(d)
-    tertle.end_fill() #Заканчиваем заливку цветом
+    turtle.end_fill() #Заканчиваем заливку цветом
 
 def main():
     # Picture_1:man (Екатерина)
@@ -162,69 +130,69 @@ def main():
     turtle.right(180)
     triangle(40, 382, 50, 71, 50, 135, 135, 'green')
 
-    #Picture_5:Fish(Ksenia)
-    turtle.right(90)
-    triangle(535, 560, 100, 100, 142, -90, -135, "yell0w")
+    # Picture_5:Fish (Ksenia)
+    turtle.right(0)
+    triangle(-565, -290, 100, 100, 142, -90, -135, 'yellow')
     turtle.right(135)
-    triangle(635, 662, 100, 100, 142, -90, -135, "red")
+    triangle(-465, -188, 100, 100, 142, -90, -135, 'red')
     turtle.right(-90)
-    triangle(636, 626, 50, 50, 71, -90, -135, "blue")
+    triangle(-464, -224, 50, 50, 71, -90, -135, 'blue')
     turtle.right(45)
-    square(634, 661, 41, 41, 41, 41, -90, -90, -90, "orange")
+    square(-466, -189, 41, 41, 41, 41, -90, -90, -90, 'orange')
     turtle.right(-90)
-    parallelogram(576, 661, 41, 29, 41, 29, -45, -135, -45, "green")
+    parallelogram(-524, -189, 41, 29, 41, 29, -45, -135, -45, 'green')
     turtle.right(180)
-    triangle(576, 660, 29, 29, 41, -90, -135, "pink")
-    turtle.ringht(0)
-    triangle(517, 630, 41, 29, 29, 135, 90, "purple")
+    triangle(-524, -190, 29, 29, 41, -90, -135, 'pink')
+    turtle.right(0)
+    triangle(-583, -220, 41, 29, 29, 135, 90, 'purple')
 
-    #Picture_6:Men2(Ksenia)
+    # Picture_6:Men2(Ksenia)
     turtle.right(-45)
-    square(600, 1200, 71, 71, 71, 71, -90, -90, -90, "orange" )
+    square(600, 1200, 71, 71, 71, 71, -90, -90, -90, 'orange' )
     turtle.right(135)
-    triangle(550, 1098, 128, 180, 128, 135, 135, "red")
+    triangle(550, 1098, 128, 180, 128, 135, 135, 'red')
     turtle.right(180)
-    parallelogram(549, 1098, 50, 71, 50, 71, 45, 135, 45, "green")
+    parallelogram(549, 1098, 50, 71, 50, 71, 45, 135, 45, 'green')
     turtle.right(135)
-    triangle(570, 990, 128, 128, 180, 90, 135, "yellow")
+    triangle(570, 990, 128, 128, 180, 90, 135, 'yellow')
     turtle.right(-135)
-    triangle(450, 870, 50, 50, 71, -90, -135, "pink")
+    triangle(450, 870, 50, 50, 71, -90, -135, 'pink')
     turtle.right(135)
-    triangle(572, 860, 100, 71, 71, -135, -90, "blue")
+    triangle(572, 860, 100, 71, 71, -135, -90, 'blue')
     turtle.right(-90)
-    triangle(570, 810, 50, 50, 71, -90, -135, "purple" )
+    triangle(570, 810, 50, 50, 71, -90, -135, 'purple' )
 
     # Picture_7:Ship(Ksenia)
     turtle.right(-45)
-    parallelogram(30, 900, 50, 30, 50, 30, 135, 45, 135, "green")
+    parallelogram(30, 900, 50, 30, 50, 30, 135, 45, 135, 'green')
     turtle.right(45)
-    triangle(61, 900, 50, 71, 50, 135, 135, "blue")
+    triangle(61, 900, 50, 71, 50, 135, 135, 'blue')
     turtle.right(135)
-    triangle(61, 936, 180, 128, 128, 135, 90, "red")
+    triangle(61, 936, 180, 128, 128, 135, 90, 'red')
     turtle.right(180)
-    triangle(61, 935, 63, 63, 90, 90, 135, "pink")
+    triangle(61, 935, 63, 63, 90, 90, 135, 'pink')
     turtle.right(45)
-    square(151, 936, 63, 63, 63, 63, 90, 90, 90, "orange")
+    square(151, 936, 63, 63, 63, 63, 90, 90, 90, 'orange')
     turtle.right(0)
-    triangle(59, 1066, 100, 71, 71, -135, -90, "yellow")
+    triangle(59, 1066, 100, 71, 71, -135, -90, 'yellow')
     turtle.right(0)
-    triangle(61, 1117, 63, 90, 63, 135, 135, "purple")
+    triangle(61, 1117, 63, 90, 63, 135, 135, 'purple')
 
     # Picture_8:Lama(Ksenia)
     turtle.right(135)
-    triangle(-500, 1130, 91, 91, 128, 90, 135, "blue")
+    triangle(-500, 1130, 91, 91, 128, 90, 135, 'blue')
     turtle.right(-90)
-    parallelogram(-500, 1129, 128, 70, 128, 70, -45, -135, -45, "green")
+    parallelogram(-500, 1129, 128, 70, 128, 70, -45, -135, -45, 'green')
     turtle.right(180)
-    triangle(-499, 1129, 180, 128, 128, -135, -90, "red")
+    triangle(-499, 1129, 180, 128, 128, -135, -90, 'red')
     turtle.right(90)
-    triangle(-371, 912, 128, 128, 180, 90, 135, "yellow")
+    triangle(-371, 912, 128, 128, 180, 90, 135, 'yellow')
     turtle.right(135)
-    triangle(-299, 912, 71, 50, 71, -135, -90, "purple")
+    triangle(-299, 912, 71, 50, 71, -135, -90, 'purple')
     turtle.right(-135)
-    square(-243, 1041, 60, 60, 60, 60, -90, -90, -90, "orange")
+    square(-243, 1041, 60, 60, 60, 60, -90, -90, -90, 'orange')
     turtle.right(0)
-    triangle(-303, 1042, 71, 50, 50, -135, -90, "pink")
+    triangle(-303, 1042, 71, 50, 50, -135, -90, 'pink')
 
-    if __name__ == '__main__':
-    main()
+if __name__ == '__main__':
+   main()
