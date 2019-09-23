@@ -2,13 +2,13 @@
 # Developers: Kuznetsova K. (50%), Panukova E. (60%)
 import turtle
 
-def parallelogram (x, y, a, b, c, d, r1, r2, r3,color)
+def parallelogram (x, y, a, b, c, d, r1, r2, r3,color):
 # TODO:(Ksusha)
 pass
-def square (x, y, a, b, c, d, r1, r2, r3,color)
+def square (x, y, a, b, c, d, r1, r2, r3,color):
 # TODO:(Ksusha)
 pass
-def triangle (x, y, a, b, c, r1, r2,color)
+def triangle (x, y, a, b, c, r1, r2,color):
 # TODO:(Kate)
 pass
 def figure_1
